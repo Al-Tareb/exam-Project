@@ -54,8 +54,13 @@ main {
     padding: .5rem;
 }
 
-.product-card, .product-card p {
+.product-card{
     border: 1px solid rgba(128, 128, 128, 0.65);
+}
+
+.product-card p {
+    border-top: 1px solid rgba(128, 128, 128, 0.65);
+
 }
 
 .products img {
